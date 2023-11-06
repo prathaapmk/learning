@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/learning" mode="merge"/>
+    <filter root="/content/learning" mode="merge"/>
+    <filter root="/content/dam/learning" mode="merge">
+        <exclude pattern="/content/dam/learning(/.*)?"/>
+        <include pattern="/content/dam/learning/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/learning/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/learning" mode="merge"/>
+</workspaceFilter>
